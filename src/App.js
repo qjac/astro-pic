@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Table from "./Table";
 import Form from "./Form";
+import './scss/App.scss';
+
 class App extends Component {
   state = {
     characters: [],
