@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Table from "./Table";
 import Form from "./Form";
+import Image from "./Image";
 import './scss/App.scss';
 
 class App extends Component {
@@ -26,12 +27,15 @@ class App extends Component {
     const { characters } = this.state;
     return (
       <div className="container">
-        <Table
+        {/* <Table
           characterData={characters}
           removeCharacter={this.removeCharacter}
         />
         <hr />
         <Form handleSubmit={this.handleSubmit} />
+
+        <hr /> */}
+        <Image />
       </div>
     );
   }
